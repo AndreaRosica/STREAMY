@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Piattforma di Streaming Legittimo</title>
+        <link rel="stylesheet" href="streamy.css">
+    </head>
+    <body>
+        <header>
+            <h1>Benvenuto alla Piattaforma di Streaming</h1>
+        </header>
+
+        <main>
+
+            <section id="video-section">
+                <input type="file" class="input">
+                <video id="videoPlayer" width="800" controls>
+                    <source src="" type="video/mp4"/>
+                    Il tuo browser non supporta il tag video.
+                </video>
+            </section>        
+
+            <section id="social-section">
+                <h2>Commenti</h2> 
+                <div id="comments">
+                    
+                </div>
+                <input type="text" id="commentInput" placeholder="Scrivi un commento..." />
+                <button id="sendComment">Invia</button>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2024 La tua piattaforma di streaming legittimo</p>
+        </footer>
+
+        <script type="text/javascript" src="streamy.js"></script>
+    </body>
+</html>
